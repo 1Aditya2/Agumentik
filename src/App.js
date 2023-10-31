@@ -1,15 +1,15 @@
-// import logo from './logo.svg';
-// import './App.css';
 import Banner from './Components/Banner/Banner';
+import Middle from './Components/Middle/Middle';
+import Monday from './Components/Monday/Monday';
 import Trello from './Components/Trello/Trello';
-// import Trello from './Co'
-// import Trello from '../'
 function App() {
   return (
     <div className="App">
     <Banner/>
     {/* <Trello/> */}
-    <Trello/>
+    <Middle/>
+   <Monday/>
+    
     </div>
   );
 }
